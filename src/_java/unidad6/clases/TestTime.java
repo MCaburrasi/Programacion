@@ -19,9 +19,9 @@ public class TestTime {
         System.out.println(t1); // toString()
 // Test nextSecond();
         System.out.println(t1.nextSecond());
-//        System.out.println(t1.nextSecond().nextSecond());
+        System.out.println(t1.nextSecond().nextSecond());
 // Test previous Second()
-//        System.out.println(t1.previousSecond());
-//        System.out.println(t1.previousSecond().previousSecond());
+        System.out.println(t1.previousSecond());
+        System.out.println(t1.previousSecond().previousSecond());
     }
 }
