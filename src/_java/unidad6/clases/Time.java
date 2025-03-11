@@ -5,7 +5,7 @@ public class Time {
     private int minute;
     private int second;
 
-    public Time(int second, int minute, int hour) {
+    public Time(int hour, int minute, int second) {
         this.hour = hour;
         this.minute = minute;
         this.second = second;
@@ -35,7 +35,7 @@ public class Time {
         this.second = second;
     }
 
-    public void setTime(int second, int minute, int hour){
+    public void setTime(int hour, int minute, int second){
         setSecond(second);
         setMinute(minute);
         setHour(hour);
