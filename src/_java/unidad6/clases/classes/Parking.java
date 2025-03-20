@@ -37,8 +37,12 @@ public class Parking {
 		return installed;
 	}
 
+	public String prettyPrint(){
+		return "Aparcabicicleta " + this.id + "\nCoordenadaX: " + this.x + "\nCoordenadaY: " + this.y + "\nAros: " + rings + "\nInstalado: " + installed;
+	}
+
 	@Override
 	public String toString() {
-		return "\nAparcaBicicletas[" + "x=" + x + ", y=" + y + ", id=" + id + ", rings=" + rings + ", installed='" + installed + ']';
+		return "\nAparcaBicicletas[" + "x=" + x + ", y=" + y + ", id=" + id + ", rings=" + rings + ", barrio=" + district.getName() + ", installed='" + installed +']';
 	}
 }

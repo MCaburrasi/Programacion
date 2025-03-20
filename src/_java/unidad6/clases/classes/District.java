@@ -3,7 +3,7 @@ package _java.unidad6.clases.classes;
 import java.util.HashSet;
 import java.util.Set;
 
-public class District {
+public class District implements Comparable<District>{
 	private String name;
 	private Set<Parking> parking;
 
@@ -24,7 +24,8 @@ public class District {
 		return parking;
 	}
 
-	public String getCant() {
-		return name;
+	@Override
+	public int compareTo(District o) {
+		return this.getName().compareToIgnoreCase(o.getName());
 	}
 }
