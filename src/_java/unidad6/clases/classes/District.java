@@ -16,7 +16,11 @@ public class District {
 		this.parking = parking;
 	}
 
-	public Set<Parking> getAparcaBicicletas() {
+	public String getName() {
+		return name;
+	}
+
+	public Set<Parking> getParking() {
 		return parking;
 	}
 

@@ -13,7 +13,7 @@ public class ParkingManager {
 	}
 
 	public void report (District district){
-		System.ou
+		System.out.println(district.getName());
 	}
 }
 
