@@ -1,6 +1,4 @@
-package _java.unidad6.clases;
-
-import java.util.Arrays;
+package _java.unidad6.clases.classes;
 
 public class Player2 {
     private String name;

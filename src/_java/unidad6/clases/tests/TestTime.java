@@ -1,4 +1,6 @@
-package _java.unidad6.clases;
+package _java.unidad6.clases.tests;
+
+import _java.unidad6.clases.classes.Time;
 
 public class TestTime {
     public static void main(String[] args) {

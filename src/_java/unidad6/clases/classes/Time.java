@@ -1,4 +1,4 @@
-package _java.unidad6.clases;
+package _java.unidad6.clases.classes;
 
 public class Time {
     private int hour;

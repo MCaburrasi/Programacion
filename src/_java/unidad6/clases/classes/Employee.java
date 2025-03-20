@@ -1,9 +1,10 @@
-package _java.unidad6.clases;
+package _java.unidad6.clases.classes;
 
 public class Employee {
     private int id;
     private String firstName;
     private String lastName;
+    private int edad;
     private int salary;
 
     public Employee(int id, String firstName, String lastName, int salary) {
@@ -35,6 +36,10 @@ public class Employee {
 
     public void setSalary(int salary) {
         this.salary = salary;
+    }
+
+    public int getEdad() {
+        return edad;
     }
 
     public int getAnnualSalary(){
