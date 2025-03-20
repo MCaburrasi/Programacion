@@ -1,0 +1,8 @@
+parcial1 = float(input("¿Que nota sacaste en el primer parcial?: "))
+parcial2 = float(input("¿Que nota sacaste en el segundo parcial?: "))
+parcial3 = float(input("¿Que nota sacaste en el tercer parcial?: "))
+final = float(input("¿Cual fue tu nota en el examen final?: "))
+trabajo = float(input("¿Cuanto sacaste en el trabajo?: "))
+promedio_parcial = float((parcial1 + parcial2 + parcial3)/3)
+nota_final = round(promedio_parcial * 0.55 + final * 0.3 + trabajo * 0.15,3)
+print("Tu nota final es un",nota_final)

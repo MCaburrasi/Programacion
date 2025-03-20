@@ -1,0 +1,5 @@
+print("Entrada")
+edad = int(input("Edad: "))
+altura = float(input("Altura: "))
+print("Salida")
+print("Tienes",edad,"años y mides",altura,"metros")

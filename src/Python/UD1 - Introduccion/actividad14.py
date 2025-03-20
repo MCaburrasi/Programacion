@@ -1,0 +1,6 @@
+alumnos = input("¿Cuantos alumnos hay en la clase?: ")
+chicos = input("¿Cuantos son chicos?: ")
+chicas = input("¿Cuantas son chicas?:")
+print("El numero total de alumnos es",alumnos)
+print("El numero de chicas es",chicas)
+print("El numero de chicos es",chicos)

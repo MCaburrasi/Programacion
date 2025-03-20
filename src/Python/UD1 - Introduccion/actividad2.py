@@ -1,0 +1,7 @@
+print("Entrada")
+calificacion1 = float(input("Calificación 1: "))
+calificacion2 = float(input("Calificación 2: "))
+calificacion3 = float(input("Calificación 3: "))
+promedio = ((calificacion1+calificacion2+calificacion3)/3)
+print("Salida")
+print("El promedio de tus calificaciones es",round(promedio,2))

@@ -1,14 +1,14 @@
 package _java.unidad6.clases.classes;
 
-public class AparcaBicicletas {
+public class Parking {
 	private double x;
 	private double y;
 	private int id;
-	private Barrio district;
+	private District district;
 	private int rings;
 	private String installed;
 
-	public AparcaBicicletas(double x, double y, int id, Barrio district, int rings, String installed) {
+	public Parking(double x, double y, int id, District district, int rings, String installed) {
 		this.x = x;
 		this.y = y;
 		this.id = id;
