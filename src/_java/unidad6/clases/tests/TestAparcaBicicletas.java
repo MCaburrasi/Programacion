@@ -65,6 +65,7 @@ public class TestAparcaBicicletas {
 		pmse.getDistrict().add(bellavistaLaPalmera);
 		pmse.getDistrict().add(macarenaNorte);
 
-		pmse.reportPrint();
+		//pmse.reportPrint();
+		pmse.parkingPrint();
 	}
 }

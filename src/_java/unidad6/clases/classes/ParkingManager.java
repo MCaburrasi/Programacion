@@ -28,17 +28,30 @@ public class ParkingManager {
 		return i;
 	}
 
+	private Set<Parking> makeParkingSet() {
+		Set<Parking> parkingSet = new TreeSet<>();
+		for (District dist : district){
+			parkingSet.addAll(dist.getParking());
+		}
+		return parkingSet;
+	}
+
 	public void reportPrint (){
 		for (District dist : district) {
 			System.out.println("Barrio: " + dist.getName());
 			System.out.println("Cantidad de aparcabicicletas: " + getQuant(dist));
 			System.out.println("Aparcabicicletas instalados: " + getQuantInstalled(dist));
 			for (Parking park : dist.getParking()){
-				System.out.println(park.prettyPrint());
+				System.out.println(park.makePretty());
 				System.out.println("-----------------------");
 			}
 			System.out.println(" ");
 		}
+	}
+
+	public void parkingPrint (){
+		Set<Parking> parkingSet = makeParkingSet();
+		parkingSet.forEach(System.out::println);
 	}
 }
 
