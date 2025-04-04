@@ -1,6 +1,6 @@
 package _java.unidad6.clases.classes;
 
-public class Parking {
+public class Parking implements Comparable<Parking>{
 	private double x;
 	private double y;
 	private int id;
@@ -37,8 +37,13 @@ public class Parking {
 		return installed;
 	}
 
-	public String prettyPrint(){
+	public String makePretty(){
 		return "Aparcabicicleta " + this.id + "\nCoordenadaX: " + this.x + "\nCoordenadaY: " + this.y + "\nAros: " + rings + "\nInstalado: " + installed;
+	}
+
+	@Override
+	public int compareTo(Parking o) {
+		return Integer.compare(this.id, o.id);
 	}
 
 	@Override
