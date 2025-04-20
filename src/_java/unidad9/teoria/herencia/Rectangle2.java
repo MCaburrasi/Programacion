@@ -46,6 +46,6 @@ public class Rectangle2 extends Shape{
 
 	@Override
 	public String toString() {
-		return "Rectangle[" + super.toString() + " length=" + length + ", width=" + width + ']';
+		return "Un rectangulo con lado = " + length + ", y ancho = " + width + ", que es subclase de " + super.toString();
 	}
 }

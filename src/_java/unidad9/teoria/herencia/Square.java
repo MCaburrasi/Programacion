@@ -32,6 +32,6 @@ public class Square extends Rectangle2{
 
 	@Override
 	public String toString() {
-		return "Square[" + super.toString() + "]";
+		return "Un cuadrado de lado = " + getSide() + ", que es subclase de " + super.toString();
 	}
 }

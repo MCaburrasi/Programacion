@@ -31,6 +31,6 @@ public class Shape {
 
 	@Override
 	public String toString() {
-		return "Shape[" + "color=" + color + ", filled=" + filled + ']';
+		return "Una figura de color" + color + "y" + (filled ? "rellena" : "no rellena");
 	}
 }
