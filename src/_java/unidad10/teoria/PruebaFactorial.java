@@ -1,0 +1,24 @@
+package _java.unidad10.teoria;
+
+import java.util.Scanner;
+
+public class PruebaFactorial {
+    public static void main(String[] args) {
+        String keepGoing = "y";
+        Scanner sc = new Scanner(System.in);
+        while (keepGoing.equals("y") || keepGoing.equals("Y")){
+                System.out.println("Enter an integer: ");
+                int val = sc.nextInt();
+            try {
+                System.out.println("Factorial(" + val + ") = " + MathUtils.factorial(val));
+            } catch (IllegalArgumentException e) {
+                if (val < 0)
+                    System.out.println("Numero no valido: " + val + " es negativo");
+                else
+                    System.out.println("Numero no valido: " + val + " es mayor a 16");
+            }
+            System.out.println("Another factorial? (y/n) ");
+            keepGoing = sc.next();
+        }
+    }
+}

@@ -73,5 +73,4 @@ public class Circle {
 	public String toString() {
 		return "Circle[" + "Center=" + center + ", radius=" + radius + ']';
 	}
-
 }
