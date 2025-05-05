@@ -12,10 +12,7 @@ public class PruebaFactorial {
             try {
                 System.out.println("Factorial(" + val + ") = " + MathUtils.factorial(val));
             } catch (IllegalArgumentException e) {
-                if (val < 0)
-                    System.out.println("Numero no valido: " + val + " es negativo");
-                else
-                    System.out.println("Numero no valido: " + val + " es mayor a 16");
+                System.out.println(e.getMessage());
             }
             System.out.println("Another factorial? (y/n) ");
             keepGoing = sc.next();
