@@ -1,4 +1,4 @@
-package _java.unidad10.teoria;
+package _java.unidad10.teoria.excepciones;
 
 import java.io.FileNotFoundException;
 import java.io.File;

@@ -1,4 +1,4 @@
-package _java.unidad10.teoria;
+package _java.unidad10.teoria.excepciones;
 
 public class MathUtils {
     public static int factorial(int n) throws IllegalArgumentException{

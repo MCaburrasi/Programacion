@@ -1,6 +1,5 @@
-package _java.unidad10.teoria;
+package _java.unidad10.teoria.excepciones;
 
-import java.io.*;
 class Test {
     private static int metodo () {
         int valor =0;
